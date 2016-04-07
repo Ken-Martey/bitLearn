@@ -1,0 +1,172 @@
+<template name="index">
+    <!-- HOME -->
+    <section class="home bg-img" id="home">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="home-wrapper">
+                        <div class="main-slider">
+                            <ul class="slides">
+                                <li>
+                                    <h1 class="animated fadeInDown wow" data-wow-delay=".1s">EDEO</h1>
+                                    <h3 class="animated fadeInLeft wow" data-wow-delay=".2s">
+                                        Edeo is an online educational marketplace that helps tertiary students in Africa study better by combining <br/> the power of peer-to-peer learning with video education.</h3>
+                                    {{#autoForm collection="Emails" id="insertEmailsForm" type="insert"}}
+                                        <fieldset>
+                                            {{> afQuickField name='emails' label="" id="emailID" class="form-control" placeholder="Please enter your email"}}
+                                        </fieldset>
+                                        <button type="submit" class="btn btn-custom btn-rnd animated fadeInUp wow" data-wow-delay=".4s">Get Notifified Soon</button>
+                                    {{/autoForm}}
+                                    <!--<input type="text" class="form-control" id="name2"/>-->
+                                    <!--<a href="index.html" class="btn btn-custom btn-rnd animated fadeInUp wow" data-wow-delay=".4s">Learn more</a>-->
+                                </li>
+                                <!--<li>-->
+                                    <!--<h1 class="animated fadeInDown wow" data-wow-delay=".1s">We are Creative</h1>-->
+                                    <!--<h4 class="animated fadeInLeft wow" data-wow-delay=".2s">Dantes remained confused and silent by this explanation of the thoughts which had unconsciously been working in his <br/> mind, or rather soul; for there are two distinct sorts of ideas.</h4>-->
+                                    <!--<a href="index.html" class="btn btn-custom btn-rnd animated fadeInUp wow" data-wow-delay=".4s">Learn more</a>-->
+                                <!--</li>-->
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 class="text-uppercase font-bold">Simple Process</h3>
+                    <div class="title-hr"></div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <p class="sub-title"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-sm-4 wow fadeInLeft animated">
+                    <div class="services-box">
+                        <div class="icon-box">
+                            <img src="images/icons/video.png" alt="">
+                        </div>
+
+
+                        <div>
+                            <h4 class="font-bold">Record a video</h4>
+                            <p class="text-muted">Simply record a video of yourself teaching a particular topic using various methods; blackboard, powerpoint presentation. Just make it fun</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInUp animated">
+                    <div class="services-box">
+                        <div class="icon-box">
+                            <img src="images/icons/upload.png" alt="">
+                        </div>
+
+
+                        <div>
+                            <h4 class="font-bold">Upload a Video</h4>
+                            <p class="text-muted">Just go through a two step click to upload your quality video and set your price. It's that easy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight animated">
+                    <div class="services-box">
+                        <div class="icon-box">
+                            <img src="images/icons/drawing-tablet.png" alt="">
+                        </div>
+
+
+                        <div>
+                            <h4 class="font-bold">Learn from colleagues</h4>
+                            <p class="text-muted">Have problems understanding that particular topic? Just search for that topic and click to play on a video on that topic. Learning just got better!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- END FEATURES-1 -->
+
+    <!-- FOOTER -->
+    <footer class="section bg-gray footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h5></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{pathFor "index"}}">Home</a>
+                        </li>
+                        <!--<li><a href="index.html">Features</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">About Us</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">FAQ</a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+
+                <!--<div class="col-md-3 col-sm-6">-->
+                    <!--<h5>Social</h5>-->
+                    <!--<ul class="list-unstyled">-->
+                        <!--<li><a href="index.html">Facebook</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">Twitter</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">Behance</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">Dribbble</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-3 col-sm-6">-->
+                    <!--<h5>Support</h5>-->
+                    <!--<ul class="list-unstyled">-->
+                        <!--<li><a href="index.html">Help & Support</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">Privacy Policy</a>-->
+                        <!--</li>-->
+                        <!--<li><a href="index.html">Terms & Conditions</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+
+                <div class="col-md-3 col-sm-6">
+                    <h5>Contact</h5>
+                    <address>
+                        20 Aluguntuguntu Street<br>
+                        East Legon<br>
+                        <abbr title="Phone">P:</abbr>+233 246325632<br/>
+                        E: <a href="mailto:edeo@edeo.com">edeo@edeo.com</a>
+                    </address>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-alt">
+                        <p class="pull-right">2015 © Edeo</p>
+                        <p class="logo"><i class="ion-social-buffer"></i>Edeo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- END FOOTER -->
+</template>
