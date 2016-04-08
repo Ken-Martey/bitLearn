@@ -39,6 +39,31 @@ body {
   line-height: 22px;
   overflow-x:hidden;
 }
+
+
+.rotate {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;
+}
+
+.rotate:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.lead {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 ::selection{
   background: rgba(151, 160, 175, 0.5);
   color: #ffffff;
@@ -87,7 +112,8 @@ textarea {
   background: linear-gradient(#444F5C, #334159);
 }
 .bg-img {
-  background: url("../images/bg.jpg");
+  background: url("https://friki.moe/wp-content/uploads/2016/01/goodread-libros.jpg");
+  height: 100%;
   background-size: cover;
   position: relative;
 }
@@ -538,8 +564,8 @@ textarea {
   margin: 5px 0px;
 }
 .footer-alt {
-  border-top: 1px solid rgba(151, 160, 175, 0.2);
-  margin-top: 30px;
+  /*border-top: 1px solid rgba(151, 160, 175, 0.2);*/
+  margin-top: 15px;
   padding-top: 20px;
 }
 .footer-alt .logo {

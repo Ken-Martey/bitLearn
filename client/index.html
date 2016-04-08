@@ -11,10 +11,10 @@
                                 <li>
                                     <h1 class="animated fadeInDown wow" data-wow-delay=".1s">BitLearn</h1>
                                     <h3 class="animated fadeInLeft wow" data-wow-delay=".2s">
-                                        BitLearn is an online educational platform that helps you learn new things everyday.  <br/> We do this by letting you accquire useful and relevant information daily. </h3>
+                                        BitLearn helps you learn new things everyday.  Learn in short, focused bursts of information </h3>
                                         {{#autoForm collection="Emails" id="insertEmailsForm" type="insert"}}
                                         <fieldset>
-                                            {{> afQuickField name='emails' label="" id="emailID" class="form-control" placeholder="Please enter your email"}}
+                                            {{> afQuickField name='emails' label="" id="emailID" class="form-control" placeholder="Be the first to start learning, ENTER EMAIL HERE!"}}
                                         </fieldset>
                                         <button type="submit" class="btn btn-custom btn-rnd animated fadeInUp wow" data-wow-delay=".4s">Get Notifified Soon</button>
                                         {{/autoForm}}
@@ -35,51 +35,100 @@
             </div>
         </section>
 
+        <div id="whatis" class="content-section-b" style="border-top: 0; margin-top: 40px;">
+        <div class="container">
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                <h2>Why Micro-Learning?</h2>
+                <p class="lead" style="margin-top:0">Things have to change</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 wow fadeInDown text-center">
+                    <img class="rotate img-circle" src="images/attention.jpg" width="120" height="120"  alt="Generic placeholder image">
+                    <h3>Decrease Attention Span </h3>
+                    <p class="lead">Right now the average human has an attention span of eight seconds. In a world where we consume content in status updates and 140 characters, it only makes sense that our educational content would be distributed in the same, micro-manner.</p>
+                    
+                </div> 
+                <div class="col-sm-4 wow fadeInDown text-center">
+                    <img class="rotate img-circle" src="images/video.jpg" width="120" height="120" alt="Generic placeholder image">
+                    <h3>No Videos Needed</h3>
+                    <p class="lead">Only 25 percent of the world has access to 3G networks, which limits global accessibility to the internet and thus the ability to stream videos. We do not rely on video content and allow you to download content for offline use, anytime, anywhere. </p>
+                    
+                </div> 
+                <div class="col-sm-4 wow fadeInDown text-center">
+                    <img class="rotate img-circle" src="images/phone.png" width="120" height="120" alt="Generic placeholder image">
+                    <h3>Mobile As A Platform</h3>
+                    <p class="lead">Mobile recently eclipsed desktop as the dominant platform and in the next three years billions of new mobile users will come online. Micro-learning is all about accessibility and bite-sized content, both of which are optimal for a mobile device. This allows users to learn when it is convenient for them, even on your morning commute :)</p>
+                    
+                </div> 
+            </div> 
+            <!-- <div class="row tworow">
+                <div class="col-sm-4  wow fadeInDown text-center">
+                    <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
+                    <h3>Responsive</h3>
+                    <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                    
+                </div> 
+                <div class="col-sm-4 wow fadeInDown text-center">
+                    <img class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+                    <h3>Google</h3>
+                    <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                    
+                </div> 
+                <div class="col-sm-4 wow fadeInDown text-center">
+                    <img class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+                    <h3>Bootstrap</h3>
+                    <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                    
+                </div> 
+            </div>  -->
+        </div>
+    </div>
+
         <!-- END FEATURES-1 -->
 
         <!-- FOOTER -->
-        <footer class="section bg-gray footer">
+        <footer class="bg-gray footer">
             <div class="container">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <h5></h5>
                         <ul class="list-unstyled">
                             <li><a href="{{pathFor "index"}}">Home</a>
                             </li>
-                            <!--<li><a href="index.html">Features</a>-->
-                            <!--</li>-->
-                            <!--<li><a href="index.html">About Us</a>-->
-                            <!--</li>-->
-                            <!--<li><a href="index.html">FAQ</a>-->
-                            <!--</li>-->
+                            <li><a href="index.html">Features</a>
+                            </li>
+                            <li><a href="index.html">About Us</a>
+                            </li>
+                            <li><a href="index.html">FAQ</a>
+                            </li>
                         </ul>
                     </div>
 
-                    <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<h5>Social</h5>-->
-                    <!--<ul class="list-unstyled">-->
-                    <!--<li><a href="index.html">Facebook</a>-->
-                    <!--</li>-->
-                    <!--<li><a href="index.html">Twitter</a>-->
-                    <!--</li>-->
-                    <!--<li><a href="index.html">Behance</a>-->
-                    <!--</li>-->
-                    <!--<li><a href="index.html">Dribbble</a>-->
-                    <!--</li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
+                    <div class="col-md-3 col-sm-6">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled">
+                    <li><a href="index.html">Facebook</a>
+                    </li>
+                    <li><a href="index.html">Twitter</a>
+                    </li>
+                    <li><a href="index.html">Behance</a>
+                    </li>
+                    <li><a href="index.html">Dribbble</a>
+                    </li>
+                    </ul>
+                    </div>
 
-                    <!--<div class="col-md-3 col-sm-6">-->
-                    <!--<h5>Support</h5>-->
-                    <!--<ul class="list-unstyled">-->
-                    <!--<li><a href="index.html">Help & Support</a>-->
-                    <!--</li>-->
-                    <!--<li><a href="index.html">Privacy Policy</a>-->
-                    <!--</li>-->
-                    <!--<li><a href="index.html">Terms & Conditions</a>-->
-                    <!--</li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
+                    <div class="col-md-3 col-sm-6">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                    <li><a href="index.html">Help & Support</a>
+                    </li>
+                    <li><a href="index.html">Privacy Policy</a>
+                    </li>
+                    <li><a href="index.html">Terms & Conditions</a>
+                    </li>
+                    </ul>
+                    </div>
 
                     <div class="col-md-3 col-sm-6">
                         <h5>Contact</h5>
@@ -91,7 +140,7 @@
                         </address>
                     </div>
 
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-sm-12">
